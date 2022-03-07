@@ -20,6 +20,14 @@ var averageTime = totalTime / 3;
 double cookiesPerHour = 5;
 
 double monthlySalary = 1000;
+double dailySalary = Math.Round(monthlySalary/30);
 bool isEvil = false;
 double cookiesCost = 1.50;
+
+Console.WriteLine("........Financial Info.....");
+Console.WriteLine($"The hero can buy {monthlySalary/cookiesCost}");
+Console.WriteLine($"The hero earns {monthlySalary}");
+Console.WriteLine($"The average time the hero spends {averageTime}");
+Console.WriteLine($"The hero is evil {isEvil}");
+
 
