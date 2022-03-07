@@ -22,12 +22,13 @@ double cookiesPerHour = 5;
 double monthlySalary = 1000;
 double dailySalary = Math.Round(monthlySalary/30);
 bool isEvil = false;
-double cookiesCost = 1.50;
+double cookiesCost = 2;
 
-Console.WriteLine("........Financial Info.....");
-Console.WriteLine($"The hero can buy {monthlySalary/cookiesCost}");
-Console.WriteLine($"The hero earns {monthlySalary}");
-Console.WriteLine($"The average time the hero spends {averageTime}");
-Console.WriteLine($"The hero is evil {isEvil}");
+Console.WriteLine("........FINANCIAL INFO.....");
+
+Console.WriteLine($"Fluffy can buy {monthlySalary/cookiesCost}");
+Console.WriteLine($"Fluffy earns {monthlySalary}");
+Console.WriteLine($"The average time Fluffy spends {averageTime}");
+Console.WriteLine($"Fluffy is evil {isEvil}");
 
 
